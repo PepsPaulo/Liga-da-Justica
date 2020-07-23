@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MulherMaravilha">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="215dp"
+        android:layout_height="410dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/txtNome"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtMM1"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/txtCod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCod"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtMM2"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/txtEsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEsp"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtMM3"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/txtHab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHab"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtMM4"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/txtVul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtVul"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMM5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtMM5"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/txtEquip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEquip"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMM6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtMM6"
+            android:textColor="#FF0000" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVM4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:onClick="VerMais"
+        android:text="@string/btnVerMais"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

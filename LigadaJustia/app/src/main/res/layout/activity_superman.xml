@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336"
+    tools:context=".Superman">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="215dp"
+        android:layout_height="375dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/txtNome"
+            android:textColor="#0027FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSpm1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSpm1"
+            android:textColor="#0027FF" />
+
+        <TextView
+            android:id="@+id/txtCod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCod"
+            android:textColor="#0027FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSpm2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSpm2"
+            android:textColor="#0027FF" />
+
+        <TextView
+            android:id="@+id/txtEsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEsp"
+            android:textColor="#0027FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSpm3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSpm3"
+            android:textColor="#0027FF" />
+
+        <TextView
+            android:id="@+id/txtHab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHab"
+            android:textColor="#0027FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSpm4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSpm4"
+            android:textColor="#0027FF" />
+
+        <TextView
+            android:id="@+id/txtVul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtVul"
+            android:textColor="#0027FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSpm5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSpm5"
+            android:textColor="#0027FF" />
+
+        <TextView
+            android:id="@+id/txtEquip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEquip"
+            android:textColor="#0027FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSpm6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSpm6"
+            android:textColor="#0027FF" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVM3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:onClick="VerMais"
+        android:text="@string/btnVerMais"
+        android:textColor="#0027FF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
